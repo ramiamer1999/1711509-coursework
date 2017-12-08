@@ -1,0 +1,78 @@
+body{
+    max-width: 1000px;
+    background: no-repeat center/150%url("image1.png");
+}
+
+nav>ul {
+  position: fixed;
+}
+
+nav>ul>li{
+  font-family:"Goudy Bookletter 1911", sans-serif;
+  display: block;
+  position:relative;
+  top:-25px;
+  float:left;
+  padding: 0px 0px 0px 50px;
+  background-color:#ACFCD9;
+  border-color:black;
+  border-style:solid;
+  border-width:1px;
+  border-radius:3px;
+  margin-left:2px;
+}
+
+h1{
+  color: #DAFFED;
+  font-family: Garamond;
+  font-weight: 500;
+  position: relative;
+  padding: 200px 0px 0px 500px;
+}
+
+h2{
+  color: #DAFFED;
+  font-family: Garamond;
+  font-weight: 500;
+  position: relative;
+  top:10px;
+  left: 540px;
+}
+
+#p1{
+  background-color: #F2E863;
+  font-family: Verdana;
+  float: right;
+  border-style: solid;
+  border-radius: 3px;
+  position: relative;
+  top: 60px;
+  right:110px;
+  padding: 20px 20px 20px 20px;
+}
+
+#p2{
+  background-color: #DE6C83;
+  font-family: Verdana;
+  float: right;
+  border-style: solid;
+  border-radius: 3px;
+  position: relative;
+  top:60px;
+  right:320px;
+  padding: 20px 20px 20px 20px;
+}
+
+#Sidenote{
+  color: #DAFFED;
+  padding: 150px 0px 0px 600px;
+}
+
+/*Better to keep these images under a class since they share
+  more or less the same purpose, size and location.*/
+
+.image{
+  padding: 40px 0px 0px 10px;
+  width: 5%;
+  float: right;
+}

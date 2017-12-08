@@ -1,0 +1,88 @@
+body{
+  background-color: #89BD9E;
+}
+
+nav>ul {
+  position:fixed;
+}
+
+nav>ul>li{
+  font-family:"Goudy Bookletter 1911", sans-serif;
+  display: block;
+  position:relative;
+  top:-25px;
+  float:left;
+  padding: 0px 0px 0px 50px;
+  background-color:#ACFCD9;
+  border-color:black;
+  border-style:solid;
+  border-width:1px;
+  border-radius:3px;
+  margin-left:2px;
+}
+
+#arduino{
+  position: relative;
+  float: left;
+  width:25%;
+  top: 150px;
+  right:160px;
+  padding: 10px 10px 10px 10px;
+}
+
+#arduino1{
+  position: relative;
+  float: left;
+  top: 55px;
+  left: 100px;
+}
+
+#network{
+  position: relative;
+  width:25%;
+  top:105px;
+  right:40px;
+    padding: 10px 10px 10px 10px;
+
+}
+
+#network1{
+  position: relative;
+  top: 80px;
+  left: 35px;
+}
+#nexus{
+  position: relative;
+  float: right;
+  width:25%;
+  top:-110px;
+  left:190px;
+    padding: 10px 10px 10px 10px;
+}
+
+#nexus1{
+  position: relative;
+  border-color: black;
+  border-width: thick;
+  float: right;
+  top:-205px;
+  right:90px;
+}
+
+#Sidenote{
+   color: #black;
+   position: relative;
+   left:550px;
+   top:270px;
+   font-size: 27px;
+ }
+
+.image{
+     position: relative;
+     top:190px;
+     left: 370px;
+     width:4%;
+     padding-bottom: 10px;
+     float: right;
+   }
+ }
