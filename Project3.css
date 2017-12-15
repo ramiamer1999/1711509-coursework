@@ -1,0 +1,55 @@
+body{
+  background-color: #BFD3C1;
+}
+
+nav>ul {
+  position:fixed;
+}
+
+nav>ul>li{
+  font-family:"Goudy Bookletter 1911", sans-serif;
+  display: block;
+  position:relative;
+  top:-25px;
+  float:left;
+  padding: 0px 0px 0px 50px;
+  background-color:#ACFCD9;
+  border-color:black;
+  border-style:solid;
+  border-width:1px;
+  border-radius:3px;
+  margin-left:2px;
+}
+
+#paragraph{
+  position: relative;
+  text-align: center;
+  top: 150px;
+  font-size: 28px;
+}
+
+p{
+  position: relative;
+  font-family: Verdana;
+  font-size: 22px;
+  text-align: left;
+  top: 200px;
+}
+
+#Sidenote{
+   color: #black;
+   position: relative;
+   padding: 0px 0px 0px 570px;
+   top:120px;
+   font-size: 27px;
+ }
+
+.image{
+     position: relative;
+     top:220px;
+     left: 0px;
+     width:4%;
+     padding-bottom: 10px;
+     float: right;
+   }
+ }
